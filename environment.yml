@@ -1,0 +1,19 @@
+name: boulder-snow 
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  # IDE
+  - jupyterlab
+  # Numerics
+  - cftime
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  # Performance
+  - bottleneck
+  # Visualization
+  - matplotlib
+  - nc-time-axis
+  - proplot
