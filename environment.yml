@@ -18,3 +18,6 @@ dependencies:
   - nc-time-axis
   - proplot
   - seaborn
+  - pip:
+      - nb_black
+
