@@ -9,6 +9,7 @@ dependencies:
   - cftime
   - numpy
   - pandas
+  - pint_xarray
   - scipy
   - xarray
   # Performance
