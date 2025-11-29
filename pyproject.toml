@@ -1,0 +1,31 @@
+[project]
+dependencies = []
+name = "boulder_first_snow"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.dependencies]
+python = "3.12.*"
+jupyter = ">=1.1.1,<2"
+jupyterlab = ">=4.5.0,<5"
+cftime = ">=1.6.4,<2"
+numpy = ">=2.3.5,<3"
+pandas = ">=2.3.3,<3"
+scipy = ">=1.16.3,<2"
+xarray = ">=2025.11.0,<2026"
+bottleneck = ">=1.6.0,<2"
+matplotlib = ">=3.10.8,<4"
+nc-time-axis = ">=1.4.1,<2"
+ultraplot = ">=1.66.0,<2"
+seaborn = ">=0.13.2,<0.14"
+pint-xarray = ">=0.6.0,<0.7"
+ipykernel = ">=7.1.0,<8"
+nb_black = ">=1.0.7,<2"
